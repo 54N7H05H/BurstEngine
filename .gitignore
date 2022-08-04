@@ -1,0 +1,110 @@
+##  Burst Engine
+##  Copyright 2022 54N7H05H
+##
+##  Burst Engine is licensed under BSD 3-Clause license. For a detailed license, refer
+##  https://github.com/54N7H05H/BurstEngine/blob/stable/latest/LICENSE
+
+##  Ignore directories and files that are part of the development environment
+##  Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+##  IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/caches
+.idea/modules.xml
+.idea/libraries
+.idea/navEditor.xml
+
+##  Sublime Text
+*.sublime-workspace
+
+##  Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+
+##  Visual Studio
+.vs/
+Generated\ Files/
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.e2e
+*.coverage
+*.coveragexml
+
+##  Visual Studio Code
+*.code-workspace
+.history/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+##  Build Results
+[Bb]uild/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+##  Explicity ignore artifacts
+##  Prerequisites
+*.d
+
+##  Precompiler headers
+*.gch
+*.pch
+
+##  CPP objects and libraries
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+##  Executables
+*.app
+*.exe
+*.out
+
+##  Additional Workspace Exclusions
+##  Coverlet
+coverage*[.json, .xml, .info]
